@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+    box-shadow: 0 0 10px gray;
+    .header-nav{
+        display: flex;
+        gap: 40px;
+        margin-right: 200px;
+        .header-nav__item{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: grey;
+            }
+        }
+    }
+}
+
