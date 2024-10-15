@@ -1,5 +1,6 @@
 import './Card.scss';
 
+
 export default function HomeCarsCard(){
     return <section className='cards'>
         <div className='cards-container'>
