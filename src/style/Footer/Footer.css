@@ -1,0 +1,13 @@
+.footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+  color: white;
+  background: black;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=Footer.css.map */
