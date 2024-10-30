@@ -1,6 +1,7 @@
 .about-cars {
   display: flex;
   width: 100%;
+  padding: 100px;
   justify-content: center;
 }
 .about-cars .about-cars__texts {

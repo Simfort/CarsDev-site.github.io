@@ -9,6 +9,6 @@ export default function AboutCars(){
         In 2018, Mercedes-Benz became the world’s largest premium vehicle brand, with a sales volume of 2.31 million passenger cars.
         The roots of the brand trace back to the 1901 Mercedes by Daimler-Motoren-Gesellschaft and the 1886 Benz Patent-Motorwagen by Carl Benz, which is widely recognized as the first automobile powered by an internal combustion engine. The brand’s slogan is "The Best or Nothing".]</p>
         </div>
-        <HomeCarsCard></HomeCarsCard>
+        
     </section>
 }

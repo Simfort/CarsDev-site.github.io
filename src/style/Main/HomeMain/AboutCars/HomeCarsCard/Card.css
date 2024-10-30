@@ -1,3 +1,48 @@
-
+.cards {
+  background-image: url("../../../../../assets/pngwing.com (5).png");
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  padding-top: 50px;
+  width: 100%;
+}
+.cards .cards-container {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cards .cards-container .cards-container__item {
+  height: 400px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s box-shadow;
+  box-shadow: 0 0 10px grey;
+}
+.cards .cards-container .cards-container__item p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cards .cards-container .cards-container__item.--1 {
+  align-self: flex-start;
+}
+.cards .cards-container .cards-container__item.--3 {
+  align-self: flex-start;
+}
+.cards .cards-container .cards-container__item:hover {
+  box-shadow: 0 0 20px black;
+}
 
 /*# sourceMappingURL=Card.css.map */
