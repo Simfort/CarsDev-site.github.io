@@ -4,8 +4,9 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 700px;
+  min-height: 700px;
   padding-top: 50px;
+  padding-bottom: 20px;
   width: 100%;
 }
 .cards .cards-container {
@@ -13,12 +14,14 @@
   position: relative;
   justify-content: space-around;
   align-items: center;
-  height: 700px;
+  min-height: 700px;
+  gap: 20px;
   width: 100%;
   flex-wrap: wrap;
 }
 .cards .cards-container .cards-container__item {
   height: 400px;
+  position: relative;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   padding: 20px;

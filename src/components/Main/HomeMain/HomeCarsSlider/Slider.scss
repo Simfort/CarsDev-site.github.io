@@ -1,6 +1,7 @@
 .home-slider{
     width: 100%;
     height: 500px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,6 +37,7 @@
                     }
                 }
             }
+           
             button{
                 background: none;
                 background-image: url('../../../../assets/s_right_arrow_icon_263645.svg');
@@ -69,4 +71,9 @@
         }
     }
    
+}
+@media (max-width:500px) {
+    .home-slider__images{
+        max-width: 200px;
+    }
 }
