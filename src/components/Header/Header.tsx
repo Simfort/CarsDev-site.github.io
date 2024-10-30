@@ -7,7 +7,7 @@ export default function Header(){
         <img src={logo} width='200' height='200'  className="logo"/>
         <nav className='header-nav'>
             <Link className='header-nav__item link-home' to='/'>Home</Link>
-            <Link className='header-nav__item link-shop' to='/'>Shop</Link>
+            <Link className='header-nav__item link-shop' to='/shop'>Shop</Link>
         </nav>
     </header>
 }

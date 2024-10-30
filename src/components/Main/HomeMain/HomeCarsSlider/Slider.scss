@@ -7,9 +7,49 @@
     padding-top: 20px;
     background-color: black;
     background-image: url('../../../../assets/pngwing.com\ \(5\).png');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    position: fixed;
+    .home-slider-wrapper{
+        overflow: hidden;
+        .home-slider__images{
+            height: 400px;
+            width: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-color: rgba(39, 36, 36, 0.733);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-position: center;
+            &.next{
+                animation: anim 0.5s linear;
+                @keyframes anim {
+                    from{
+                        opacity: 0;
+                    }
+                    to{
+                        opacity: 1;
+                    }
+                }
+            }
+            button{
+                background: none;
+                background-image: url('../../../../assets/s_right_arrow_icon_263645.svg');
+                height: 50px;
+                width: 50px;
+                border-radius: 20px;
+                background-color: rgba(245, 245, 220, 0.5);
+                background-size: cover;
+                // box-shadow: 0 0 10px gray;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
     .home-slider__about{
         background-color: rgba(0, 0, 0, 0.63);
         width: 700px;
@@ -28,31 +68,5 @@
             }
         }
     }
-    .home-slider__images{
-        height: 400px;
-        width: 700px;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding: 20px;
-        background-image: url('../../../../assets/carSlider1.jpg') ;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-color: rgba(39, 36, 36, 0.733);
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        background-position: center;
-        button{
-            background: none;
-            background-image: url('../../../../assets/s_right_arrow_icon_263645.svg');
-            height: 50px;
-            width: 50px;
-            border-radius: 20px;
-            background-color: rgba(245, 245, 220, 0.5);
-            background-size: cover;
-            // box-shadow: 0 0 10px gray;
-            cursor: pointer;
-            border: none;
-        }
-    }
+   
 }
