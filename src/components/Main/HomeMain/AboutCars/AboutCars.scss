@@ -1,0 +1,21 @@
+
+.about-cars{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .about-cars__texts{
+        display: flex;
+        flex-direction: column;
+        font-family: "Lato", sans-serif;
+        width: 50%;
+        .about-cars__title{
+            font-size: 55px;
+            align-self: center;
+            
+        }
+        .about-cars__about{
+            font-size: 20px;
+        }
+    }
+}
+
